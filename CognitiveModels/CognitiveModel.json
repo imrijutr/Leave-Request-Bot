@@ -1,0 +1,52 @@
+{
+    "name": "TraineeTestAPP",
+    "versionId": "0.1",
+    "desc": "",
+    "culture": "en-us",
+    "luis_schema_version": "4.0.0",
+    "tokenizerVersion": "1.0.0",
+    "intents": [
+        {
+            "name": "LeaveRequest"
+        },
+        {
+            "name": "None"
+        }
+    ],
+    "entities": [],
+    "closedLists": [
+        {
+            "name": "LeaveType",
+            "subLists": [
+                {
+                    "canonicalForm": "sick",
+                    "list": [
+                        "illness",
+                        " maternity"
+                    ]
+                }
+            ],
+            "roles": []
+        }
+    ],
+    "composites": [],
+    "patternAnyEntities": [],
+    "regex_entities": [],
+    "prebuiltEntities": [
+        {
+            "name": "datetimeV2",
+            "roles": []
+        }
+    ],
+    "regex_features": [],
+    "model_features": [],
+    "patterns": [],
+    "utterances": [
+        {
+            "text": "apply 2 days sick leave",
+            "intent": "LeaveRequest",
+            "entities": []
+        }
+    ],
+    "settings": []
+}
